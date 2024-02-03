@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding-block: 10px;
+  background-color: blanchedalmond;
+  margin: auto;
+  max-width: 1000px;
+  padding-inline: 5px;
+}
+nav a {
+  text-decoration: none;
+  font-size: 18px;
+}
+.list {
+  display: flex;
+  gap: 10px;
+}
+.container {
+  margin: auto;
+  max-width: 1000px;
+  padding: 10px;
+  background-color: beige;
+}
